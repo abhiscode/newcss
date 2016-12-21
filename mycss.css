@@ -1,0 +1,284 @@
+
+  @import url('https://fonts.googleapis.com/css?family=Quicksand');
+/* ------universal css----*/
+  *{
+      padding: 0px;
+      margin:0px;
+      font-family: 'Quicksand', sans-serif;
+      outline:none;
+       color:#A7B9B6;
+  }
+/*------------- grid system---------------------- */
+  .xxs{
+      width:6%;float:left;
+      box-sizing:border-box;
+  }
+
+  .xs{width:10%; float: left; box-sizing:border-box;    }
+  .xs1{width:15%; float: left; box-sizing:border-box;    }
+  .sm{ width:20%;float: left;  box-sizing:border-box;    }
+  .sm1{ width:25%;float: left; box-sizing:border-box;     }
+  .md{ width:30%;float: left; box-sizing:border-box;     }
+  .md1{ width:40%;float:left; box-sizing:border-box;     }
+   .md2{width:50%;float: left; box-sizing:border-box;    }
+   .lg{width:60%;float: left; box-sizing:border-box;    }
+   .lg1{width:70%;float: left; box-sizing:border-box;    }
+   .lg2{width:80%;float: left; box-sizing:border-box;    }
+   .xl{width:90%;float: left; box-sizing:border-box;    }
+   .xl1{width:100%;float: left; box-sizing:border-box;    }
+   .xl2{width:98%;float: left; box-sizing:border-box;    }
+
+
+  .lb{
+      height: 30px;
+  }
+
+  .len0{
+      height: 50px;
+  }
+
+  .len1{height: 100px; }
+  .len1_5{height: 150px; }
+  .len2{height: 200px; }
+  .len2_5{ height: 250px; }
+  .len3{height: 300px;}
+  .len3_5{height: 350px;}
+  .len4{height: 400px;}
+  .len4_5{height: 450px;}
+  .len5{height: 500px;}
+  .len5_5{height: 550px;}
+  .nw{
+      width:100%;float:left;
+      height:30px;
+  }
+
+  /*--------End of grid system-----*/
+
+  /*----- div format----------*/
+
+  .d2{
+      padding:0px;
+      border: none;
+      box-shadow: 0px  10px 14px #E4E2E3;
+      background-color:white;
+  }
+   .d1{
+      padding:0px;
+      border: none;
+      background-color:white;
+  }
+  .dv{
+      padding:5px;
+      border: none;
+  }
+  .d3{
+      padding:0px;
+      border: none;
+      border-radius: 10px;
+      background-color:white;
+
+  }
+  .d-dot{
+    border-radius:10px;
+      border:1px solid red;
+      border-style:dashed;
+      background-color:white;
+      margin:5px 5px 5px 5px;
+
+  }
+   .d-dt{
+    border-radius:10px;
+      border:1px solid #38A3A8;
+      border-style:dashed;
+      margin:5px 5px 5px 5px;
+
+  }
+
+  .dx{
+      border:10px solid white;
+      box-sizing:none;
+      box-shadow: 0px  0px 20px #E4E2E3;
+      background-color:white;
+  }
+
+  /*---------End of div format-----*/
+  /*---------color format-----------*/
+  .red{
+      background-color: red;
+          color:white !important;
+  }
+  .grn{
+      background-color:#09DC30;
+          color:white !important;
+  }
+  .ble{
+      background-color:#6A65F6;
+      color:white !important;
+  }
+  .org{
+     background-color: #F59031;
+         color:white !important;
+  }
+  .gry{
+      background-color:#AFB6B1
+          color:white !important;
+  }
+ .yel{
+      background-color:yellow;
+      color:black;
+  }
+  .foot{
+      background-color: #1E6276;
+      color:white;
+      font-weight: bold;
+  }
+
+  /*------end of color-----*/
+  /*-----button------*/
+  .bt1 {
+      border-radius: 5px;
+      border: none;
+      cursor:pointer;
+     color:white;
+     font-size:20px;
+  }
+   .b-bl {
+       background-color: #5960EE;
+      border: none;
+      cursor:pointer;
+     border-bottom:5px solid #081FCC;
+     color:white;
+     font-size:20px;
+  }
+   .b-rd {
+      background-color: red;
+      border: none;
+      cursor:pointer;
+     border-bottom:5px solid #E60000;
+     color:white;
+     font-size:20px;
+  }
+   .b-gn {
+      background-color: #23CC17;
+      border: none;
+      cursor:pointer;
+     border-bottom:5px solid green;
+     color:white;
+     font-size:20px;
+  }
+   .b-og {
+      background-color: orange;
+      border: none;
+      cursor:pointer;
+      border-bottom:5px solid darkorange;
+      color:white;
+     font-size:20px;
+  }
+   .b-yl {
+      background-color: yellow;
+      border: none;
+      cursor:pointer;
+     border-bottom:5px solid #D4E114;
+     color:gray !important;
+     font-size:20px;
+  }
+  .b-les{
+      border: none;
+      cursor:pointer;
+      color:#C5CBCC;
+     font-size:20px;
+     background-color: white;
+  }
+   .b-rt{
+      border: none;
+      cursor:pointer;
+      color:#C5CBCC;
+     font-size:20px;
+     border-right:1px solid  #C5CBCC;
+     word-spacing: 2px;
+     background-color:white;
+
+  }
+  .b-ml{
+      border-radius:0px 5px 5px 0px;
+  }
+
+  /*---------End of button-----*/
+
+  .wll{
+      border:1px solid lightgray;
+      box-shadow: 0px 0px 10px lightgrey inset;
+      border-radius:5px;
+      padding:0px;
+      padding-left:10px;
+      background-color:#FEFEFE;
+      color:Lightgrey;
+  }
+  body{
+      padding:0px;
+      margin:0px;
+  }
+  /*------- input---*/
+  input{
+      border-radius:5px;
+      border:1px solid lightgray;
+      padding-left:10px;
+      padding:5px;
+      outline:none;
+  }
+  .bles{
+      border:none;
+      border-bottom:1px solid lightgray;
+      border-bottom-style: dashed;
+  }
+  .in-ds{
+       border:none;
+      border-bottom:1px solid lightgray dashed;
+  }
+  .in-lf{
+      border-radius:5px 0px 0px 5px;
+  }
+
+/*--------End of input-------*/
+/*-----font-size-----------*/
+.fsm{
+    font-size: 18px;
+}
+.fmd{
+    font-size: 20px;
+}
+.flg{
+    font-size: 24px;
+}
+.fxl{
+    font-size: 32px;
+}
+.fxxl{
+    font-size: 48px;
+}
+.a-c{
+    text-align:center;
+}
+.a-r{
+    text-align: right;
+}
+.f-rd{
+    color: red;
+}
+.f-bl{
+    color: blue;
+}
+ .f-sb{
+    color: skyblue;
+}
+.f-gn{
+    color: green;
+}
+.f-sl{
+    color:#38A3A8;
+}
+.f-bd{
+    font-weight: bold;
+}
+
+/*------end of font-----*/
